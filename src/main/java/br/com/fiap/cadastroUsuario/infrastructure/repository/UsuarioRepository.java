@@ -1,6 +1,6 @@
-package br.com.fiap.cadastro_usuario.infrastructure.repository;
+package br.com.fiap.cadastroUsuario.infrastructure.repository;
 
-import br.com.fiap.cadastro_usuario.infrastructure.entities.Usuario;
+import br.com.fiap.cadastroUsuario.infrastructure.entities.Usuario;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package br.com.fiap.cadastro_usuario.infrastructure.entities;
+package br.com.fiap.cadastroUsuario.infrastructure.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

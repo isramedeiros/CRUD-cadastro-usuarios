@@ -1,9 +1,8 @@
-package br.com.fiap.cadastro_usuario.controller;
+package br.com.fiap.cadastroUsuario.controller;
 
-import br.com.fiap.cadastro_usuario.business.UsuarioService;
-import br.com.fiap.cadastro_usuario.infrastructure.entities.Usuario;
+import br.com.fiap.cadastroUsuario.business.UsuarioService;
+import br.com.fiap.cadastroUsuario.infrastructure.entities.Usuario;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
-package br.com.fiap.cadastro_usuario.business;
+package br.com.fiap.cadastroUsuario.business;
 
-import br.com.fiap.cadastro_usuario.infrastructure.entities.Usuario;
-import br.com.fiap.cadastro_usuario.infrastructure.repository.UsuarioRepository;
+import br.com.fiap.cadastroUsuario.infrastructure.entities.Usuario;
+import br.com.fiap.cadastroUsuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -27,7 +27,7 @@ public class UsuarioService {
         repository.deleteByEmail(email);
     }
 
-    public void atualizarUsuarioPorEmail(Integer id, Usuario usuario) {
+    public void atualizarUsuarioPorId(Integer id, Usuario usuario) {
         Usuario usuarioEntity = repository.findById(id).orElseThrow(() ->
                 new RuntimeException("Usuario não encontrado"));
 

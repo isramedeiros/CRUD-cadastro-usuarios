@@ -1,4 +1,4 @@
-package br.com.fiap.cadastro_usuario;
+package br.com.fiap.cadastroUsuario;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
